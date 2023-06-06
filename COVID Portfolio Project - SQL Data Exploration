@@ -1,3 +1,10 @@
+/*
+Covid 19 Data Exploration 
+
+*/
+
+-- Just checking the tables
+
 SELECT*
 FROM [Portfolio Project]..covid_deaths
 where continent is not null
