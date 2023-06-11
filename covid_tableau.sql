@@ -63,6 +63,7 @@ order by PercentPopulationInfected desc
 
 
 
+/* final dashboard: https://public.tableau.com/app/profile/saravana.kumar.permalsamy/viz/CovidDashboard_16863974268300/Dashboard1#1 */
 
 
 
