@@ -31,7 +31,7 @@ SET SaleDateConverted = CONVERT(Date,SaleDate)
 
  --------------------------------------------------------------------------------------------------------------------------
 
--- Populate Property Address data
+-- To summarize, this query is used to populate the null PropertyAddress values in the table [Portfolio Project]..nashville_housing_data by matching the ParcelID with other rows in the same table.
 
 Select *
 From [Portfolio Project]..nashville_housing_data
@@ -90,6 +90,7 @@ Update [Portfolio Project]..nashville_housing_data
 SET PropertySplitCity = SUBSTRING(PropertyAddress, CHARINDEX(',', PropertyAddress) + 1 , LEN(PropertyAddress))
 
 
+-- Breaking out Address into Individual Columns (Address, City, State) but using Parse/Parsing
 
 
 Select *
